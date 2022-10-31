@@ -5,6 +5,8 @@
     --GrayText: #4f5358;
     --LightGray: #6d747d;
     --LightLightGray: #b1b9c5;
+    --LightBackground: #edf2f5;
+    --BackgroundApp: #191c1f;
     --Unica: 'Unica', 'Noto Sans', 'Arial', 'Helvetica', sans-serif;
 }
 
@@ -307,6 +309,7 @@ header nav a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 40px;
 }
 
 #background-image {
@@ -355,4 +358,114 @@ header nav a {
 #product-vanmoof-v #text-vanmoof-v #learn-more-v:hover {
     border-color: var(--LightGray);
     transition: border-color 0.3s ease-in-out;
+}
+
+.bigcontainer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+}
+
+.half-half-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.half-half-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: var(--LightBackground);
+}
+
+#special-width {
+    width: 65%;
+    padding-left: 100px;
+}
+
+#special-width #second-reverse-container {
+    width: 60%;
+}
+
+#peace-of-mind {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.half-half-text h3 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+#second-reverse-h3 {
+    margin-top: -20px;
+}
+
+.half-half-text p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    padding-bottom: 25px;
+}
+
+.half-half-text a {
+    text-decoration: none;
+    color: var(--BackgroundWhite);
+    border: solid;
+    background-color: #000;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.half-half-text a:hover {
+    background-color: #4f5358;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.half-half-picture {
+    width: 50%;
+}
+
+.half-half-picture img {
+    width: 100%;
+    height: 100%;
+}
+
+#reverse {
+    flex-direction: row-reverse;
+}
+
+#dark-app .half-half-text {
+    background-color: var(--BackgroundApp);
+}
+
+#dark-app .half-half-text {
+    color: var(--BackgroundWhite);
+}
+
+#dark-app #dark-vanmoof-app {
+    padding: 0;
+    margin: 0;
+}
+
+#dark-app h3 {
+    margin-top: 20px;
+}
+
+#dark-app p {
+    color: var(--LightBackground);
+}
+
+#dark-app a {
+    background-color: var(--BackgroundWhite);
+    color: var(--BackgroundApp);
+    font-weight: 500;
 }
