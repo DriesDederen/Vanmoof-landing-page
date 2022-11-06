@@ -469,3 +469,116 @@ header nav a {
     color: var(--BackgroundApp);
     font-weight: 500;
 }
+
+.last-container {
+    width: 100%;
+}
+
+.background-last-container {
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.background-last-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 0;
+
+}
+
+.text-last-container {
+    position: absolute;
+    z-index: 1;
+    top: 5000px;
+    padding-left: 100px;
+    padding-right: 900px;
+    top: 4950px;
+}
+
+.text-last-container #all-new {
+    color: var(--BackgroundWhite);
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.text-last-container h3 {
+    font-size: 44px;
+    color: var(--BackgroundWhite);
+    font-weight: 600;
+    margin-top: 0;
+    line-height: 50px;
+    margin-bottom: 0;
+}
+
+.text-last-container #description-test-ride {
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.text-last-container a {
+    text-decoration: none;
+    color: var(--GrayText);
+    border: solid;
+    background-color: var(--BackgroundWhite);
+    border-color: var(--BackgroundWhite);
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 14px;
+    transition: color 0.3s ease-in-out;
+
+}
+
+.text-last-container a:hover {
+    color: var(--LightGray);
+    transition: color 0.3s ease-in-out;
+}
+
+.quick-info {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    background-color: #2d3033;
+    width: 100%;
+    margin-top: -5px;
+
+}
+
+.quick-info-part {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    /* width: 80%; */
+    gap: 20px;
+    padding: 20px 0 20px 100px;
+}
+
+#text-quick {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.quick-info-part #headline {
+    color: var(--BackgroundWhite);
+    margin-bottom: 0;
+}
+
+.quick-info-part #learn-more-quick {
+    color: #b1b9c5;
+    margin-top: 0;
+}
+
+.quick-info-part #learn-more-quick:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.quick-info-part img {
+    width: 25px;
+}
